@@ -145,13 +145,25 @@ a {
     margin: 2rem 5rem;
   }
 }
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 395px) {
   .container-fluid {
     background-image: url(/assets/bg-mobile.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 2rem;
+  }
+
+  .container .header .header-title .profesi {
+    align-items: center;
+    justify-content: center;
+  }
+  .container .header .header-title h1 {
+    font-size: 1.2rem;
+  }
+
+  .container .header .header-description .name h1 {
+    font-size: 1.2rem;
   }
   .container .content {
     justify-content: center;
@@ -165,7 +177,7 @@ a {
   }
 }
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 366px) {
   .container .header .header-title {
     width: 100%;
   }
@@ -176,6 +188,15 @@ a {
 
   .container .header .header-description .name h1 {
     font-size: 1.2rem;
+  }
+
+  .container .header .header-title .profesi {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container .header .header-description .profesi h3 {
+    font-size: 0.9rem;
   }
 
   .container .content {
